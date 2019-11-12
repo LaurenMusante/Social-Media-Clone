@@ -5,8 +5,9 @@ function CurrentUser(props){
     var myStyledComponentStyles = {
         backgroundColor: '#ecf0f1',
         fontFamily: 'sans-serif',
-        paddingTop: '50px'
-      }
+        paddingTop: '50px',
+        border: '3px solid grey'
+      };
 
     return (
         <div style={myStyledComponentStyles} className='jumbotron col-md-4'>

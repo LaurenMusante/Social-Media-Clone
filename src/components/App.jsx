@@ -1,6 +1,8 @@
 import React from 'react';
 import CurrentUser from './CurrentUser';
 import TextBlock from './TextBlock';
+import Feed from './Feed';
+import FriendSuggestions from './FriendSuggestions';
 
 function App(){
   return (
@@ -10,6 +12,8 @@ function App(){
           name="PersonName"
           age="400"
           gender="female" />
+          <Feed />
+          <FriendSuggestions />
       </div>
       <div className="row">
         <TextBlock
