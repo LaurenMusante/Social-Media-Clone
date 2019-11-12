@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function TextBlock(props){
     return (
-        <div>
+        <div className="jumbotron col-md-4">
             <h4>{props.content}</h4>
         </div>
     );
