@@ -22,8 +22,8 @@ function Feed(){
 }   
   
   return (
-    <div className='col-md-4' style={myStyledComponentStyles}>
-      
+    <div style={myStyledComponentStyles}>
+
       {feedArray.map((feedItem, index) =>
         <FeedItem names={feedItem.names}
           text={feedItem.text}

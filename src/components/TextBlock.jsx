@@ -6,7 +6,7 @@ function TextBlock(props){
         border: '3px solid grey'       
     }   
     return (
-        <div style={myStyledComponentStyles} className="jumbotron col-md-4">
+        <div style={myStyledComponentStyles} className="jumbotron">
             <h4>{props.content}</h4>
         </div>
     );

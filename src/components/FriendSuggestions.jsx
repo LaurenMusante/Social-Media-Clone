@@ -19,11 +19,11 @@ function FriendSuggestions(){
     }   
   
   return (
-    <div className='col-md-4' style={myStyledComponentStyles}>
-      
-      {friendSuggestionsArray.map((friendSuggestionsItem, index) =>
+    <div style={myStyledComponentStyles}>
+        <h2>Friend Suggestions</h2>
+       {friendSuggestionsArray.map((friendSuggestionsItem, index) =>
         <FriendSuggestionsItem names={friendSuggestionsItem.names}
-          key={index} />
+             key={index} />
       )}
     </div>
   );
